@@ -28,18 +28,22 @@ public enum WebApplicationType {
 	/**
 	 * The application should not run as a web application and should not start an
 	 * embedded web container.
+	 * 非web应用，不用web容器启动
 	 */
 	NONE,
 
 	/**
 	 * The application should run as a servlet-based web application and should start an
 	 * embedded servlet container.
+	 * servlet Web应用,需要servlet容器启动
 	 */
 	SERVLET,
 
 	/**
 	 * The application should run as a reactive web application and should start
 	 * an embedded web container.
+	 * 响应式web应用
+	 * reactive web应用，需要web容器启动
 	 */
 	REACTIVE;
 
